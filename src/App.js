@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/views/Header";
+import Home from "./components/views/Home";
+import About from "./components/views/About";
+import Contact from "./components/views/Contact";
+import Experiences from "./components/views/Experiences";
+import Projects from "./components/views/Projects";
+import Skills from "./components/views/Skills";
+import CssBaseline from "@mui/material/CssBaseline";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <CssBaseline />
+      <div className="app">
+        <Header name="Parth Miyani" />
+        <Home firstName="Parth" role="Front End Developer" />
+        <About />
+        <Skills />
+        <Experiences />
+        <Projects />
+        <Contact />
+      </div>
+    </>
   );
 }
 
