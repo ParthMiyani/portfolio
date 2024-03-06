@@ -4,40 +4,32 @@ export default function Skills() {
   return (
     <div className="skills">
       <h1>Skills</h1>
-      <ui>
-        <li>
-          Languages
-          <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Java</li>
-          </ul>
-        </li>
-        <li>
-          Web Development
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>React</li>
-            <li>Node.js</li>
-          </ul>
-        </li>
-        <li>
-          Database
-          <ul>
-            <li>MongoDB</li>
-            <li>MySQL</li>
-          </ul>
-        </li>
-        <li>
-          tools
-          <ul>
-            <li>Git</li>
-            <li>VS Code</li>
-            <li>Postman</li>
-          </ul>
-        </li>
-      </ui>
+      <div className="skill-div">
+        <div className="skill-column">
+          <div className="skill-child">
+            <h2>Languages</h2>
+            <p>JavaScript, TypeScript, Python, Java, SQL, Dart, HTML/CSS</p>
+          </div>
+          <div className="skill-child">
+            <h2>Database</h2>
+            <p>MySQL, PostgreSQL, MongoDB, Firebase, SQLite</p>
+          </div>
+        </div>
+        <div className="skill-column">
+          <div className="skill-child">
+            <h2>Development</h2>
+            <p>
+              React, Redux, React Native, Flutter, Node.js, Spring MVC, Django,
+              REST APIs, GraphQL
+            </p>
+          </div>
+          <div className="skill-child">
+            <h2>Tools</h2>
+            <p>AWS, Git, VS Code, Postman, Docker, JIRA, CI/CD</p>
+            {/* <p>AWS, Git, VS Code, Postman, Docker, JIRA, CI/CD, Jenkins</p> */}
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

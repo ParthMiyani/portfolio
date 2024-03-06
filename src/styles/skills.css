@@ -4,4 +4,21 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    padding-left: 12vw;
+    padding-right: 12vw;
+}
+
+.skill-div {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.skill-column{
+    flex: 1;
+    padding: 10px;
+}
+
+.skill-child {
+    padding-bottom: 20px;
 }

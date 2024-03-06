@@ -14,8 +14,7 @@ function App() {
       <CssBaseline />
       <div className="app">
         <Header name="Parth Miyani" />
-        <Home firstName="Parth" role="Front End Developer" />
-        <About />
+        <Home />
         <Skills />
         <Experiences />
         <Projects />
