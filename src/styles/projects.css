@@ -3,5 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    
+    padding-left: 12vw;
+    padding-right: 12vw;
 }
