@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Parker",
+    "type": "Mobile app",
+    "techStack": "Flutter, JAVA, REST API",
+    "description": [
+      "Created end-to-end parking assistance utilizing Flutter and Google Authentication to provide a seamless user experience.",
+      "Integrated Java server to handle API calls, identify nearest available parking spot, and payment system for parking charges.",
+      "Designed sensor-based system to automate parking availability checks, reducing in 50% reduction in time on manual checks and improving efficiency."
+    ]
+  },
+  {
+    "name": "Soccer Tournament",
+    "type": "Web app",
+    "techStack": "Spring MVC, JSP, PostgreSQL, REST API",
+    "description": [
+      "Led a team of 5 developers to build a soccer tournament web application with help of agile methodology.",
+      "Incorporated scheduling for tournaments, registration for teams and tournament news leveraging spring MVC.",
+      "Utilized PostgreSQL to store player and team information, and implemented REST API to fetch and update data.",
+      "Revamped website flows and features, performing robust error handling and unit testing, achieving test coverage by 95%."
+    ]
+  },
+  {
+    "name": "Career Mentor",
+    "type": "mobile app",
+    "techStack": "Flutter, Dart Firebase, FireStore, REST APIs",
+    "description": [
+      "In a team of 5, built a Flutter app, using user responses to provide personalized career guidance based on analyzed data.",
+      "Utilized Google APIs for authentication and Dart to build a good user interface.",
+      "Incorporated Cloud Firestore to store user data and provide dynamic questionnaires to users based on the answer.",
+      "Applied Fuzzy decision tree algorithm to evaluate responses and provide optimal career choices with an 85% accuracy rate."
+    ]
+  },
+  {
+    "name": "Cricket Events Detection",
+    "type": "Web app",
+    "techStack": "Python, SPARQL, AWS",
+    "description": [
+      "Applied a spaCy-based named entity recognition and relation extraction model to identify sport events from Twitter data, reducing manual time and effort by 70%.",
+      "Constructed a linked dataset of detected events on AWS Lambda and displayed data based on user-entered keywords through SPARQL queries with prescribed cricket ontology.",
+      "Submitted paper to Semantic Data IntegrationWorkshop (SDI 2022), showcasing expertise in semantic data integration."
+    ]
+  }
+]

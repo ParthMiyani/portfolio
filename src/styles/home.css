@@ -1,7 +1,10 @@
 .home {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     height: 92vh;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    border-bottom: 1px solid #DAFFFB;
 }

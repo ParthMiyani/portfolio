@@ -1,11 +1,12 @@
 .skills {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     height: 100vh;
     padding-left: 12vw;
     padding-right: 12vw;
+    border-bottom: 1px solid #DAFFFB;
 }
 
 .skill-div {
@@ -16,7 +17,7 @@
 
 .skill-column{
     flex: 1;
-    padding: 10px;
+    padding: 10px 0 10px 0;
 }
 
 .skill-child {

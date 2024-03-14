@@ -1,9 +1,59 @@
 .contact {
+    padding: 20vh 12vw 10vh 12vw;
+}
+
+.text {
+    margin: 0vh 5vw 0 35vw;
+}
+
+.email {
+    display: inline-flex;
+    color: #64CCC5;
+    padding-top: 1.5em;
+    margin-bottom: 20vh;
+}
+
+.email p {
+    color: #64CCC5;
+    padding-right: 10px;
+}
+
+.email a {
+    color: #64CCC5;
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid transparent;
+}
+
+.email a:hover {
+    color: #64CCC5;
+    border-bottom: 1px solid #64CCC5;
+    padding-bottom: 5px;
+    transition: ease 0.5s;
+}
+
+.contact-links {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    padding-left: 12vw;
-    padding-right: 12vw;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4vh 0 0 0;
+    border-top: 2px solid transparent;
+    border-image: linear-gradient(to top,#64CCC5, #176B87) 1;
+}
+
+.link{
+    margin: 0 1vw 0 0.5vw;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #64CCC5;
+}
+
+.contact-links p {
+    margin: 0 0.5vw 0 0vw;
+}
+
+.time {
+    margin-right: 0.5em;
+    color: grey;
 }

@@ -1,22 +1,14 @@
 .app {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   width: 100%;
   overflow: hidden;
   /* background-color: #DAFFFB; */
   background-color: #001C30;
   color: #ECF4D6;
 }
-
-/* .content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-} */
 
 /* #DAFFFB #64CCC5 #176B87 #001C30 */
 /* #DAFFFB #64CCC5 #176B87 #04364A*/

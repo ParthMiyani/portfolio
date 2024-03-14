@@ -1,9 +1,82 @@
 .projects {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: center;
-    
-    padding-left: 12vw;
-    padding-right: 12vw;
+    padding: 5vh 12vw 5vh 12vw;
+    border-bottom: 1px solid #DAFFFB;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    margin: 0em 0 1em 0;
+    padding: 1em 0 1em 0;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to top,#64CCC5, #176B87) 1;
+}
+
+.project:hover {
+    transform: scale(0.98);
+    animation: border-image-transition 1.5s infinite; /* Added animation property */
+}
+
+
+@keyframes border-image-transition {
+    0% {
+        border-image: linear-gradient(to top, #64CCC5, #176B87) 1;
+    }
+    13.5% {
+        border-image: linear-gradient(to top right, #64CCC5, #176B87) 1;
+    }
+    25% {
+        border-image: linear-gradient(to right, #64CCC5, #176B87) 1;
+    }
+    37.5% {
+        border-image: linear-gradient(to bottom right, #64CCC5, #176B87) 1;
+    }
+    50% {
+        border-image: linear-gradient(to bottom, #64CCC5, #176B87) 1;
+    }
+    62.5% {
+        border-image: linear-gradient(to bottom left, #64CCC5, #176B87) 1;
+    }
+    75% {
+        border-image: linear-gradient(to left, #64CCC5, #176B87) 1;
+    }
+    87.5% {
+        border-image: linear-gradient(to top left, #64CCC5, #176B87) 1;
+    }
+    100% {
+        border-image: linear-gradient(to top, #64CCC5, #176B87) 1;
+    }
+}
+
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 5vh;
+    margin: 0.5em 0 0.5em 0;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to top,#64CCC5, #176B87) 1;
+}
+
+h2 {
+    font-size: 1.6em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
