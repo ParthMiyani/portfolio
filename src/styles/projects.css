@@ -3,8 +3,15 @@
     flex-direction: column;
     align-items: left;
     justify-content: center;
-    padding: 5vh 12vw 5vh 12vw;
+    padding: 5vh 25vw 5vh 12vw;
     border-bottom: 1px solid #DAFFFB;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 5vh;
+    margin: 0.5em 0 0.5em 0;
 }
 
 .project {
@@ -12,14 +19,15 @@
     flex-direction: column;
     align-items: left;
     justify-content: left;
+    font-family: 'Open Sans', 'Covik Sans Regular', sans-serif;
     margin: 0em 0 1em 0;
     padding: 1em 0 1em 0;
-    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
     border-image: linear-gradient(to top,#64CCC5, #176B87) 1;
 }
 
 .project:hover {
-    transform: scale(0.98);
+    transform: scale(1.02);
     animation: border-image-transition 1.5s infinite; /* Added animation property */
 }
 
@@ -55,28 +63,26 @@
 }
 
 
-p{
-    margin: 0;
-    padding: 0;
-}
-
-.title {
-    font-size: 2em;
-    font-weight: bold;
-    padding-bottom: 5vh;
-    margin: 0.5em 0 0.5em 0;
-    border-bottom: 2px solid transparent;
-    border-image: linear-gradient(to top,#64CCC5, #176B87) 1;
-}
-
-h2 {
-    font-size: 1.6em;
-    margin: 0.5em 0 0.5em 0;
-    padding: 0;
-}
-
-ul {
+.project-description {
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+
+.project-tech-stack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: 0.5em 0 0.5em 0;
+}
+
+.tech {
+    font-family: 'Covik Sans Medium', 'Open Sans', sans-serif;
+    font-size: 1em;
+    color: rgb(0, 173, 181);
+    margin: 0 0.25em 0 0.25em;
+    padding: 0.15em 0.40em;
+    background-color: rgb(0, 173, 181, 0.15);
+    border-radius: 7px;
 }

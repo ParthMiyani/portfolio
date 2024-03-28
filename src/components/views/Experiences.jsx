@@ -7,7 +7,7 @@ export default function Experiences() {
       <div className="title">My Experience</div>
       <div>
         {experiences.map((experience, index) => (
-          <div key={index} className="experience">
+          <div key={index} className="experience-child">
             <p>
               {experience.date} · {experience.title} · {experience.location}
             </p>

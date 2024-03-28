@@ -1,0 +1,13 @@
+.bubble {
+  position: absolute;
+  top: 500px;
+  left: 500px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0, 1);
+  filter: blur(50px);
+  /* background-blend-mode: multiply; */
+  mix-blend-mode: hue;
+  pointer-events: none;
+}

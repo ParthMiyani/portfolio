@@ -8,11 +8,13 @@ export default function Projects() {
       <div>
         {projects.map((project, index) => (
           <div key={index} className="project">
-            <p>
-              {project.type} · {project.techStack}
-            </p>
-            <h1>{project.name}</h1>
-            <ul>
+            <div className="project-tech-stack">
+              {project.techStack.map((tech) => (
+                <p className="tech">{tech}</p>
+              ))}
+            </div>
+            <h2>{project.name}</h2>
+            <ul className="project-description">
               {project.description.map((descItem) => (
                 <li key={descItem}>{descItem}</li>
               ))}

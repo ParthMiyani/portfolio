@@ -1,0 +1,32 @@
+.background {
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    scale: 1;
+    overflow: hidden;
+}
+
+.background::before {
+    content: ' ';
+    display: block;
+    background-color: #DAFFFB;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background-image: url("/public/bg.jpg");
+    background-size: 100vh;
+    background-repeat: repeat;
+    background-position: top;
+    background-blend-mode: overlay;
+    z-index: -1;
+}
+
+.content {
+    position: relative;
+}

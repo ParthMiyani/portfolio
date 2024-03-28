@@ -12,22 +12,11 @@ export default function Header(props) {
         <Link className="name" to="home" smooth={true} duration={1000}>
           {props.name}
         </Link>
-        <Link className="nav-link" to="skills" smooth={true} duration={1000}>
-          Skills
+        <Link className="nav-link" to="" smooth={true} duration={1000}>
+          About
         </Link>
-        <Link
-          className="nav-link"
-          to="experiences"
-          smooth={true}
-          duration={1000}
-        >
-          Experiences
-        </Link>
-        <Link className="nav-link" to="projects" smooth={true} duration={1000}>
-          Projects
-        </Link>
-        <Link className="nav-link" to="contact" smooth={true} duration={1000}>
-          Contact
+        <Link className="nav-link" to="" smooth={true} duration={1000}>
+          Photography
         </Link>
       </div>
       <ButtonGroup>

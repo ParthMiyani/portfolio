@@ -5,11 +5,16 @@
   justify-content: left;
   width: 100%;
   overflow: hidden;
-  /* background-color: #DAFFFB; */
-  background-color: #001C30;
-  color: #ECF4D6;
+  scroll-behavior: smooth;
+  color: #EEEEEE;
+  background-color: #222831;
+  font-family: 'Covik Sans Regular', 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
 }
 
-/* #DAFFFB #64CCC5 #176B87 #001C30 */
-/* #DAFFFB #64CCC5 #176B87 #04364A*/
-/* #ECF4D6 #9AD0C2 #2D9596 #265073 */
+a {
+  text-decoration: none;
+  color: #EEEEEE;
+}

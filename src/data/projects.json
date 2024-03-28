@@ -1,8 +1,7 @@
 [
   {
     "name": "Parker",
-    "type": "Mobile app",
-    "techStack": "Flutter, JAVA, REST API",
+    "techStack": ["Mobile app", "Flutter", "JAVA", "REST API"],
     "description": [
       "Created end-to-end parking assistance utilizing Flutter and Google Authentication to provide a seamless user experience.",
       "Integrated Java server to handle API calls, identify nearest available parking spot, and payment system for parking charges.",
@@ -11,8 +10,7 @@
   },
   {
     "name": "Soccer Tournament",
-    "type": "Web app",
-    "techStack": "Spring MVC, JSP, PostgreSQL, REST API",
+    "techStack": ["Web app", "Spring MVC", "JSP", "PostgreSQL", "REST API"],
     "description": [
       "Led a team of 5 developers to build a soccer tournament web application with help of agile methodology.",
       "Incorporated scheduling for tournaments, registration for teams and tournament news leveraging spring MVC.",
@@ -22,8 +20,14 @@
   },
   {
     "name": "Career Mentor",
-    "type": "mobile app",
-    "techStack": "Flutter, Dart Firebase, FireStore, REST APIs",
+    "techStack": [
+      "Mobile app",
+      "Flutter",
+      "Dart",
+      "Firebase",
+      "FireStore",
+      "REST APIs"
+    ],
     "description": [
       "In a team of 5, built a Flutter app, using user responses to provide personalized career guidance based on analyzed data.",
       "Utilized Google APIs for authentication and Dart to build a good user interface.",
@@ -33,8 +37,7 @@
   },
   {
     "name": "Cricket Events Detection",
-    "type": "Web app",
-    "techStack": "Python, SPARQL, AWS",
+    "techStack": ["Web app", "Python", "SPARQL", "AWS Lambda"],
     "description": [
       "Applied a spaCy-based named entity recognition and relation extraction model to identify sport events from Twitter data, reducing manual time and effort by 70%.",
       "Constructed a linked dataset of detected events on AWS Lambda and displayed data based on user-entered keywords through SPARQL queries with prescribed cricket ontology.",

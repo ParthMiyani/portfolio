@@ -1,0 +1,118 @@
+.skill-cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Open Sans', 'Covik Sans Regular',sans-serif;
+    width: 100%;
+    height: 20vh;
+    margin-bottom: 8vh;
+}
+
+.skill-cards:hover .skill-circle{
+    /* transition: 1s ease-in-out; */
+    animation: circle-image-transition 0.25s infinite;
+}
+
+@keyframes circle-image-transition {
+    0% {
+        background-image: linear-gradient(transparent, transparent),
+        linear-gradient(to top, #64CCC5, #176B87);
+    }
+    13.5% {
+        background-image: linear-gradient(transparent, transparent),
+        linear-gradient(to top right, #64CCC5, #176B87);
+    }
+    25% {
+        background-image: linear-gradient(transparent, transparent),
+        linear-gradient(to right, #64CCC5, #176B87);
+    }
+    37.5% {
+        background-image: linear-gradient(transparent, transparent),
+        linear-gradient(to bottom right, #64CCC5, #176B87);
+    }
+    50% {
+        background-image: linear-gradient(transparent, transparent),
+        linear-gradient(to bottom, #64CCC5, #176B87);
+    }
+    62.5% {
+        background-image: linear-gradient(transparent, transparent),
+        linear-gradient(to bottom left, #64CCC5, #176B87);
+    }
+    75% {
+        background-image: linear-gradient(transparent, transparent),
+        linear-gradient(to left, #64CCC5, #176B87);
+    }
+    87.5% {
+        background-image: linear-gradient(transparent, transparent),
+        linear-gradient(to top left, #64CCC5, #176B87);
+    }
+    100% {
+        background-image: linear-gradient(transparent, transparent),
+        linear-gradient(to top, #64CCC5, #176B87);
+    }
+}
+
+.skill-row {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    align-items: center;
+}
+
+.skill-circle {
+    background-color: #EEEEEE;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(circle, #64CCC5, #176B87);
+}
+
+.skill-icon {
+    height: 35px;
+    width: 35px;
+}
+
+.skill-title {
+    font-size: 1.5rem;
+    margin: 0 0 0 20px;
+}
+
+.skill-line {
+    border: 1px solid #EEEEEE;
+    height: 90%;
+    margin: 0 29px 0 29px;
+}
+
+.skill-content {
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+/* .skill-child {
+    position: relative;
+    padding: 10px;
+    margin: 50px 50px 50px 0;
+    height: 150px;
+    width: 430px;
+    border-radius: 8px;
+    background-image: linear-gradient(transparent, transparent),
+        linear-gradient(to bottom right, #64CCC5, #176B87);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.skill-text {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    height: 146px;
+    width: 426px;
+    margin: 4px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #222831;
+    text-align: left;
+} */

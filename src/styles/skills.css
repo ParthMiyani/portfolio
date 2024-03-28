@@ -1,25 +1,19 @@
 .skills {
     display: flex;
     flex-direction: column;
-    align-items: left;
-    justify-content: center;
-    height: 100vh;
-    padding-left: 12vw;
-    padding-right: 12vw;
-    border-bottom: 1px solid #DAFFFB;
+    padding: 10vh 25vw 10vh 12vw;
+    border-bottom: 1px solid #EEEEEE;
 }
 
 .skill-div {
     display: flex;
     flex-direction: row;
+    margin: 8vh 0 0 0;
 }
 
-
-.skill-column{
-    flex: 1;
-    padding: 10px 0 10px 0;
-}
-
-.skill-child {
-    padding-bottom: 20px;
+.skill-column {
+    display: flex;
+    flex-direction: column;
+    width: 28vw;
+    margin: 0 50px 0 0;
 }

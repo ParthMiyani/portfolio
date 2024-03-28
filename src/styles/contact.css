@@ -1,9 +1,10 @@
 .contact {
-    padding: 20vh 12vw 10vh 12vw;
+    /* padding: 20vh 12vw 10vh 12vw; */
 }
 
 .text {
-    margin: 0vh 5vw 0 35vw;
+    /* margin: 0vh 5vw 0 35vw; */
+    padding: 20vh 12vw 5vh 12vw;
 }
 
 .email {
@@ -11,6 +12,7 @@
     color: #64CCC5;
     padding-top: 1.5em;
     margin-bottom: 20vh;
+    font-weight: 600;
 }
 
 .email p {
@@ -21,21 +23,21 @@
 .email a {
     color: #64CCC5;
     padding: 0 0 5px 0;
-    border-bottom: 1px solid transparent;
+    border-bottom: 2px solid transparent;
 }
 
 .email a:hover {
     color: #64CCC5;
-    border-bottom: 1px solid #64CCC5;
+    border-bottom: 2px solid #64CCC5;
     padding-bottom: 5px;
-    transition: ease 0.5s;
+    transition: ease-in 0.5s;
 }
 
 .contact-links {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 4vh 0 0 0;
+    padding: 4vh 12vw 5vh 12vw;
     border-top: 2px solid transparent;
     border-image: linear-gradient(to top,#64CCC5, #176B87) 1;
 }

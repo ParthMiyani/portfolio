@@ -1,0 +1,10 @@
+.floating-nav {
+    position: fixed;
+    top: 60vh;
+    right: 10vw;
+    text-align: left;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
