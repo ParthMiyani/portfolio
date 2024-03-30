@@ -1,24 +1,24 @@
-import { Link } from "react-scroll";
 import IconButton from "@mui/material/IconButton";
 import ButtonGroup from "@mui/material/ButtonGroup";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import { NavLink, Link } from "react-router-dom";
 import "../../styles/header.css";
 
 export default function Header(props) {
   return (
     <div className="header">
-      <div>
-        <Link className="name" to="home" smooth={true} duration={1000}>
+      <nav>
+        <NavLink className="name" to="/portfolio">
           {props.name}
-        </Link>
-        <Link className="nav-link" to="" smooth={true} duration={1000}>
+        </NavLink>
+        <NavLink className="nav-link" to="/portfolio/about">
           About
-        </Link>
-        <Link className="nav-link" to="" smooth={true} duration={1000}>
+        </NavLink>
+        <NavLink className="nav-link" to="/portfolio/photography">
           Photography
-        </Link>
-      </div>
+        </NavLink>
+      </nav>
       <ButtonGroup>
         <IconButton aria-label="LinkedIn">
           <a

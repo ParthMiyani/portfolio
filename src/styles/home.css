@@ -8,3 +8,25 @@
     padding-right: 12vw;
     border-bottom: 1px solid #DAFFFB;
 }
+
+.title-name {
+    font-family: "Covik Sans Regular", "Open Sans", sans-serif;
+    font-size: 6.5rem;
+    margin: 1rem 0 2rem 0;
+}
+
+.title-job-role {
+    font-family: "Open Sans", "Covik Sans Regular", sans-serif;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.upper-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Open Sans", "Covik Sans Regular", sans-serif;
+    font-size: 1.25rem;
+    padding: 0 0 1.25rem 0;
+    border-bottom: 1px solid #eeeeee;
+}

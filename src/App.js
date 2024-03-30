@@ -1,28 +1,41 @@
 import "./App.css";
 import "./fonts/CovikSans/CovikSansDemo-Regular.otf";
-import Header from "./components/views/Header";
+import { CssBaseline } from "@mui/material";
+import Root from "./routes/Root";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/views/Home";
-import Contact from "./components/views/Contact";
-import Experiences from "./components/views/Experiences";
-import Projects from "./components/views/Projects";
-import Skills from "./components/views/Skills";
-import CssBaseline from "@mui/material/CssBaseline";
-import Background from "./components/ui/Background";
-import FloatingNav from "./components/ui/FlaotingNav";
+import About from "./components/views/About";
+import Photography from "./components/views/Photography";
+import ErrorPage from "./components/views/ErrorPage";
+
+const router = createBrowserRouter([
+  {
+    path: "/portfolio",
+    element: <Root />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        path: "/portfolio",
+        element: <Home />,
+      },
+      {
+        path: "/portfolio/about",
+        element: <About />,
+      },
+      {
+        path: "/portfolio/photography",
+        element: <Photography />,
+      },
+    ],
+  },
+]);
 
 function App() {
   return (
     <>
       <CssBaseline />
-      {/* <Background /> */}
       <div className="app">
-        <Header name="Parth Miyani" />
-        <Home />
-        <FloatingNav />
-        <Skills />
-        <Experiences />
-        <Projects />
-        <Contact />
+        <RouterProvider router={router} />
       </div>
     </>
   );

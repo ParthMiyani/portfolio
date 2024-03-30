@@ -25,7 +25,7 @@ export default function FloatingNav(props) {
 
   return (
     <div className="floating-nav" style={{ opacity: navOpacity }}>
-      <Link className="nav-link" to="home" smooth={true} duration={1000}>
+      <Link className="nav-link" to="header" smooth={true} duration={1000}>
         ⬆
       </Link>
       <Link className="nav-link" to="skills" smooth={true} duration={1000}>

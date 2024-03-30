@@ -10,7 +10,9 @@ export default function Projects() {
           <div key={index} className="project">
             <div className="project-tech-stack">
               {project.techStack.map((tech) => (
-                <p className="tech">{tech}</p>
+                <p key={tech} className="tech">
+                  {tech}
+                </p>
               ))}
             </div>
             <h2>{project.name}</h2>
