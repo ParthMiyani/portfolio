@@ -25,9 +25,9 @@ export default function Contact() {
 
   return (
     <div className="contact">
-      <div className="text">
+      <div className="contact-div">
         <h1>Contact me!</h1>
-        <p>
+        <p className="contact-text">
           Have a question, a project idea, a job opportunity or just want to say
           hi?
           <br />

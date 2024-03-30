@@ -1,0 +1,8 @@
+.photography{
+    display: flex;
+    flex-direction: column;
+    padding: 0 12vw 10vh 12vw;
+    justify-content: center;
+    margin-top: 8vh;
+    border-bottom: 2px solid #EEEEEE;
+}

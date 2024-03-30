@@ -2,9 +2,13 @@
     /* padding: 20vh 12vw 10vh 12vw; */
 }
 
-.text {
+.contact-div {
     /* margin: 0vh 5vw 0 35vw; */
     padding: 20vh 12vw 5vh 12vw;
+}
+
+.contact-text {
+    font-family: 'Open Sans', 'Covik Sans Regular', sans-serif;
 }
 
 .email {
