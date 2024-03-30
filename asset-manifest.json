@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.27a6843a.css",
-    "main.js": "/portfolio/static/js/main.c9ca27f2.js",
+    "main.css": "/portfolio/static/css/main.29c0a411.css",
+    "main.js": "/portfolio/static/js/main.f735d255.js",
     "static/js/453.ace21015.chunk.js": "/portfolio/static/js/453.ace21015.chunk.js",
-    "static/media/bg.jpg": "/portfolio/static/media/bg.ea3fe84f7fb0f436a7f6.jpg",
     "static/media/parth_miyani.pdf": "/portfolio/static/media/parth_miyani.be0dc1f53afdfa793c03.pdf",
     "static/media/tools.png": "/portfolio/static/media/tools.7ff689a33312e2bf0fee.png",
     "static/media/CovikSansDemo-BoldItalic.otf": "/portfolio/static/media/CovikSansDemo-BoldItalic.b8e6901506c73154f0c5.otf",
@@ -17,12 +16,12 @@
     "static/media/development.svg": "/portfolio/static/media/development.de3ac1adcb8fe8be69e29dbb1d9ee045.svg",
     "static/media/database.svg": "/portfolio/static/media/database.d48ee0ac78a93786594d48cb7070cfd8.svg",
     "index.html": "/portfolio/index.html",
-    "main.27a6843a.css.map": "/portfolio/static/css/main.27a6843a.css.map",
-    "main.c9ca27f2.js.map": "/portfolio/static/js/main.c9ca27f2.js.map",
+    "main.29c0a411.css.map": "/portfolio/static/css/main.29c0a411.css.map",
+    "main.f735d255.js.map": "/portfolio/static/js/main.f735d255.js.map",
     "453.ace21015.chunk.js.map": "/portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.27a6843a.css",
-    "static/js/main.c9ca27f2.js"
+    "static/css/main.29c0a411.css",
+    "static/js/main.f735d255.js"
   ]
 }
